@@ -1,0 +1,557 @@
+@import url(reset.css);
+
+#wrapper{
+    width:1200px;
+    margin: 0 auto;
+}
+#topLine{
+    height:414px;
+    background-image:url(..//images/topLine.jpg);
+    background-repeat:no-repeat;    
+}
+/*начало блока header*/
+#header{
+    height:70px;
+    width: 1200px;
+    position:relative;
+    background-image: url(..//images/headerField.jpg);
+    background-repeat: no-repeat;
+}
+#treesAndbushes{
+    height: 90px;
+    width: 573px;
+    background-image:url(..//images/treesAndbushes.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    left: 322px;
+    top: -70px;
+	animation:myanimation 8s linear infinite;
+}
+
+
+@keyframes myanimation
+	{
+	0%
+		{
+		transform:translateX(0px)
+		}
+	50%
+		{
+		transform:translateX(100px)
+		}
+		
+	100%
+		{
+		transform:translateX(0px)
+		}
+		
+	}
+
+
+#nav{
+    height:36px;
+    width: 807px;
+    position:relative;
+    left: 288px;
+    top:34px;
+    background-color: #029ECC;
+}
+#main{
+    height:36px;
+    width: 160px;
+    background-image:url(..//images/mainfirst.png);
+    display: block;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:34px;
+    left:128px;
+}
+#main a{
+    height:36px;
+    width: 160px;
+    display: block;
+    cursor: pointer;
+}
+#main a.active:hover{
+    background:url(..//images/mainsecond.png)no-repeat;
+}
+#nav li{
+    float:left;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+#nav li a{
+    text-decoration: none;
+    font:21px Myriad Pro Condensed,sans-serif;
+    color: #FFFFFF; 
+    font-stretch:ultra-condensed;
+}
+/*white*/
+#white{
+    height: 670px;
+    width:1200px;
+    position: relative;
+}
+/*начало субблока projects*/
+#projects{
+    
+    width:1200px;
+    outline:0px solid #FF0000;
+    position:relative;
+    float:left;
+}
+#design{
+    width: 400px;
+    height: 179px;
+    outline:0px solid #FF0000;
+    float:left;
+}
+#designImg{
+    height: 64px;
+    width: 101px;
+    background-image:url(..//images/design.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 60px;
+    left: 136px;
+}
+#pro h3,#making h3,#instalation h3{
+    font: 17px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    color:#8A8A8A;
+    text-transform:uppercase;
+    position:absolute;
+    top: 58px;
+    left: 238px;
+    margin-left: 5px;
+}
+#pro p,#making p,#instalation p{
+    font:12px Tahoma Regular, sans-serif;
+    color: #868787;
+    position:absolute;
+    top: 70px;
+    left: 238px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#pro a,#making a,#instalation a{
+    font:11px Tahoma Regular, sans-serif;
+    color:#46C0E2;
+    text-transform:uppercase;
+    position:absolute;
+    top: 110px;
+    left: 238px;
+    margin-left: 5px;
+}
+#making{
+    height:179px;
+    width: 400px;
+    float: left;
+}
+#makingImg{
+    height: 61px;
+    width: 125px;
+    background-image:url(..//images/making.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 56px;
+    left: 458px;
+}
+#making h3{
+        left: 590px;
+}
+#making p{
+    left: 590px;
+}
+#making a{
+    left: 590px;
+}
+#instalation{
+    height:179px;
+    width: 400px;
+    float: left;
+}
+#instalationImg{
+    height: 61px;
+    width: 125px;
+    background-image:url(..//images/instalation.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 56px;
+    left: 769px;
+}
+#instalation h3{
+    left: 903px;
+    
+}
+#instalation p{
+    left: 903px;
+}
+#instalation a{
+    left:903px;
+}
+/*начало субблока news*/
+#news{
+   
+    width:459px;
+    position: absolute;
+    top: 179px;
+    left:0px;
+}
+#news h1{
+    font:23px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    color: #008FBF;
+    text-transform: uppercase;
+    position:absolute;
+    left:140px;  
+}
+#border{
+    height:28px;
+    width: 320px;
+    position:absolute;
+    top:46px;
+    left:140px;
+}
+#date, #dateA, #dateB,#dateZ{
+    height: 12px;
+    width:63px;
+    float: left;
+    margin-right: 3px;
+}
+#date p, #dateA p, #dateB p,#borderZ p{
+    font:11px Myriad Pro Regular, sans-serif;
+    color: #2a2a2a;
+    text-decoration: underline;
+    border-right:1px solid #2a2a2a;
+    padding-right: 3px;
+}
+#border a, #borderA a, #borderB a, #borderZ a{
+    font: 12px Myriad Pro Regular, sans-serif;
+    color:#00a7c0;
+}
+#borderA{
+    height:28px;
+    width: 320px;
+    position:absolute;
+    top:85px;
+    left:140px;
+}
+#borderB{
+    height:28px;
+    width: 320px;
+    position:absolute;
+    top:128px;
+    left:140px;
+}
+#borderZ{
+    height:28px;
+    width: 320px;
+    position:absolute;
+    top:168px;
+    left:140px;
+}
+#news a.allNews{
+    font:13px Myriad Pro Regular, sans-serif;
+    color: #015967;
+    position: absolute;
+    top: 214px;
+    left:140px;
+}
+/*начало субблока aboutCompany*/
+#aboutCompany{
+    height: 259px;
+    width: 741px;
+    position: absolute;
+    top:179px;
+    left:460px;    
+}
+#aboutCompany h1{
+    font:23px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    color: #008FBF;
+    text-transform: uppercase;
+    position:absolute;
+    left:3px;  
+}
+#pLine{
+    background-image: url(../images/pLine.png);
+    background-repeat: repeat-x;
+    width: 595px;
+    height: 1px;
+    position:absolute;
+    top:28px;
+}
+#portal p{
+    font:12px Myriad Pro Regular, sans-serif;
+    color:#848484;
+    line-height: 1.8;
+}
+#portal{
+    height:170px;
+    width: 596px;
+    position:absolute;
+    top:44px;
+}
+#pLineZ{
+    background-image: url(../images/pLine.png);
+    background-repeat: repeat-x;
+    width: 595px;
+    height: 1px;
+    position:absolute;
+    bottom:17px;
+}
+/*начало субблока lowWhite*/
+#lowWhite{
+    
+    width: 1200px;
+    position: absolute;
+    top:438px;
+}
+#onLine{
+    height: 232px;
+    width:460px;
+    float:left;
+}
+#onLine h1{
+    font:23px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    color: #1f6f7c;
+    text-transform: uppercase;
+    position:absolute;
+    left:138px;  
+}
+#onLine p{
+    font:13px Myriad Pro Regular, sans-serif;
+    color: #04a7c0;
+    position:absolute;
+    left:138px;
+    top:40px;  
+}
+#onLine a{
+    background-image:url(../images/zakaz.png);
+    background-repeat: no-repeat;
+    height:41px;
+    width:233px;
+    position:absolute;
+    left:138px;
+    top:79px;  
+    cursor: pointer;
+}
+#servises{
+    height: 232px;
+    width: 740px;
+    outline:0px solid red;
+    float:left;
+    position: relative;
+}
+#servises h1{
+    font:19px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    text-transform: uppercase;
+    color: #008fbf;
+}
+#l1{
+    width: 312px;
+    height:144px;
+    position: absolute;
+    top:37px;
+}
+#l2{
+    width: 290px;
+    height:144px;
+    outline:0px solid red;
+    float: left;
+    position: absolute;
+    top:37px;
+    left:312px;
+}
+#l1 li, #l2 li{
+    font:13px Myriad Pro regular, sans-serif;
+    color: #11adc4;
+    text-decoration: underline;
+    background-image: url(../images/minus.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    padding-left: 10px;
+    margin-bottom:10px;
+}
+#dottedLine{
+    background-image: url(../images/pLine.png);
+    background-repeat:repeat-x;
+    height:1px;
+    width: 596px;
+    position:absolute;
+    top: 223px;
+    left:459px;
+}
+/*начало блока ourProjects*/
+#ourProjects{
+    height: 396px;
+    width: 1200px;
+    position:relative;
+}
+#ourProjects h1{
+    font:23px Myriad Pro Condensed, sans-serif;
+    font-stretch:ultra-condensed;
+    color: #008FBF;
+    position:absolute;
+    left:140px;  
+    text-transform: uppercase;
+}
+#ourProjects p.carousel-text{
+    font:13px Myriad Pro Italic, sans-serif;
+    color: #6f6f6f;
+    font-style:italic;
+	padding-top:8px;
+}
+	
+.b-carousel  {
+	width: 948px; /* ширина всего блока */
+	position:absolute;
+	left:130px;
+	top:40px;
+}
+	.h-carousel-wrapper {
+		width: 890px; /* ширина области карусели */
+		position: relative;
+		overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+		margin: 0 auto; /* выравниваем по центру относительно родительского блока */
+	}
+		.h-carousel-items {
+			width: 10000px; /* устанавливаем большую ширину для набора элементов карусели, чтобы в неё всё поместилось */
+			position: relative; /* позиционируем блок относительно основной области карусели */
+		}
+			.b-carousel-block {
+				float: left; /* выстраиваем все элементы карусели в ряд */
+				width: 235px; /* задаём ширину каждого элемента */
+				padding: 5px 6px; /* делаем оступы, чтобы элементы не сливались */
+			}
+				.a-carousel-image-link { /* тут чисто оформление содержимого */
+					display: block;
+					width: 170px;
+					height: 110px;
+					overflow: hidden;
+					font: 20px Myriad Pro Semibold, sans-serif;
+					color:#33b9cd;
+					padding-top:4px;
+				}
+					.prise{
+						font:14px Myriad Pro Semibold, sans-serif;
+						font-weight:bold;
+						color:#1f1f1f;
+					}
+	.b-carousel-button-left, .b-carousel-button-right {
+		width: 20px; /* задаем ширину кнопок */
+		height: 25px; /* задаем высоту кнопок */
+		position: relative;
+		top: 50px; /* позиционируем кнопки */
+		cursor: pointer; /* делаем кнопкам курсор в виде "пальца" */
+	}
+	.b-carousel-button-left {
+		float: left; /* выравниваем левую кнопку по левому краю */
+		background: url(../images/sL.png); /* картинка с левой кнопкой */
+		background-repeat:no-repeat;
+	}
+	.b-carousel-button-right {
+		float: right; /* выравниваем правую кнопку по правому краю */
+		background: url(../images/sR.png); /* картинка с правой кнопкой */
+		background-repeat:no-repeat;
+	}
+#text{
+	position: absolute;
+	left:161px;
+	top:237px;
+	font:12px Myriad Pro Regular, sans-serif;
+    color:#848484;
+    line-height: 1.8;
+}
+#lastLine{
+	background-image: url(../images/pLine.png);
+    background-repeat:repeat-x;
+    height:1px;
+    width: 961px;
+    position:absolute;
+    top: 395px;
+    left:118px;
+}
+/* начало блока footer  */
+#footer{
+	 
+    width: 1200px;
+    position:relative;
+}
+#navFooter{
+	position:absolute;
+	left:130px;
+	top:10px;
+	width:800px;
+	height:10px;
+}
+#navFooter li a{
+	float:left;
+	font:14px Myriad Pro Regular, sans-serif;
+	color:#00a7c0;
+	text-decoration:none;
+	margin-right:45px;
+}
+#leftFooter p{
+	position: absolute;
+	left:130px;
+	top:72px;
+	font:12px Myriad Pro Regular, sans-serif;
+    color:#848484;
+    line-height: 1.8;
+}
+#leftFooter a{
+	position: absolute;
+	left:130px;
+	top:146px;
+	font:12px Tahoma Regular, sans-serif;
+    color:#33b9cd;
+}
+#centerFooter p.grafic{
+	position: absolute;
+	left:460px;
+	top:72px;
+	font:12px Myriad Pro Regular, sans-serif;
+    color:#848484;
+    line-height: 1.8;
+}
+#centerFooter p.telefon{
+	position: absolute;
+	left:460px;
+	top:116px;
+	font:20px Myriad Pro Condensed, sans-serif;
+    color:#33b9cd;
+	font-stretch:ultra-condensed;
+}
+#centerFooter p.email{
+	position: absolute;
+	left:460px;
+	top:173px;
+	font:12px Myriad Pro Regular, sans-serif;
+    color:#848484;
+}
+#rightFooter a{
+	position: absolute;
+	left:902px;
+	top:72px;
+	font:12px Tahoma Regular, sans-serif;
+    color:#959898;
+}
+.siteName{
+	position: absolute;
+	left:902px;
+	top:90px;
+	font:12px Tahoma Regular, sans-serif;
+    color:#959898;
+	font-weight:bold;
+}
+.firm{
+	position: absolute;
+	left:902px;
+	top:150px;
+	font:12px Tahoma Regular, sans-serif;
+    color:#959898;
+}

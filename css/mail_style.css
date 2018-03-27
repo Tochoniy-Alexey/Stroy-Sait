@@ -1,0 +1,30 @@
+
+.img {
+	text-align: center;
+}
+
+.zagolovok {
+    color: #0191c2;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+fieldset {
+	width: 1190px;
+	text-align: center;
+	padding:10px;
+	border: 1px solid #cccccc;
+	margin:10px;
+	background-color:#E5F1FF;
+}
+
+.fs {
+	margin-left:100px;
+}
+@media only screen and (max-width : 768px){
+	.zagolovok{
+		font-size:10px;
+		color: red;
+	}
+}

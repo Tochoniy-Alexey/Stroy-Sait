@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Онлайн - заказ</title>
+<link rel="stylesheet" href="css/mail_style.css">
+</head>
+<body>
+	<div class="img">
+			<img src="images/fon.jpg" width="1200" height="483" align="center">
+	</div>
+	
+	<p class="zagolovok"> Сделайте заказ онлайн, и вам будет счастье! <p>
+	<form action="formdata.php" method="POST" name="form1">
+		<fieldset class="fs"> 
+			<p class="question"><label for="name">Введите Ваше Имя:</label></p>
+			<p><input  type="text" name="name" size="50"></p>
+			
+			<p class="question"><label for="email">Введите Ваш Email:</label></p>
+			<p><input  type="text" name="email" size="50"></p>
+			
+			<p>Введите Ваше сообщение:</p>
+			<p><textarea name="text" cols="50" rows="6" id="text"></textarea></p>
+			<p><input type="image" src="images/zakaz.jpg" name="imagebutton"> </p>
+		
+		</fieldset>
+	</form>
+</body>
+</html>
